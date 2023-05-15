@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Bona Nova";
+  src: local("Bona Nova"),
+    url(./fonts/Bona_Nova/BonaNova-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"),
+    url(./fonts/Raleway/static/Raleway-Regular.ttf) format("truetype");
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  font-family: "Bona Nova", serif;
+  font-family: "Raleway", sans-serif;
+  color: #0004;
+}
